@@ -14,7 +14,7 @@ const App = () => {
     <div id="main">
       <div id="welcome-div">
         {
-           state === true ? <h1>Welcome to Newton School!!</h1> : null
+           state === true ? <h1>Welcome to Newton School!!</h1> : undefined
         }
         
       </div>
@@ -24,7 +24,7 @@ const App = () => {
           Newton School is a neo-university providing highly immersive tech
           learning to millions of students, to tap into new-age tech
           opportunities.
-        </h1> : null
+        </h1> : undefined
         }
       </div>
       <button id="toggle" onClick={handleToggle}>Toggle</button>
